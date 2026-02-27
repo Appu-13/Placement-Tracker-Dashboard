@@ -1,67 +1,15 @@
 Placement Tracker Dashboard
 
-A modern, animated placement tracking dashboard built using HTML, CSS, and Vanilla JavaScript.
+Placement Tracker Dashboard is a modern web-based application designed to help students efficiently manage and monitor their campus placement journey. The application allows users to record companies they have applied to, track the current stage of the application process, store offered packages, and maintain personal notes. All data is stored locally in the browser using localStorage, ensuring persistence without requiring a backend or database.
 
-This project helps students efficiently manage their campus placement applications by tracking company status, offered packages, and personal notes — all within a premium glassmorphism UI featuring smooth animations and 3D hover effects.
+The dashboard provides structured tracking for different application stages including Applied, Test, Interview, Rejected, and Selected. Users can easily add new company entries, filter applications based on status, and delete records when needed. A floating statistics section dynamically updates to display real-time counts of applications in different stages, providing a clear overview of progress.
 
-✨ Features
+The user interface is built using advanced CSS techniques such as Glassmorphism 2.0, animated gradient backgrounds, smooth transitions, glowing status indicators, and interactive 3D hover tilt effects. These elements create a premium dashboard-like experience while maintaining simplicity and performance. The design focuses on clean hierarchy, modern layout, and intuitive interaction.
 
-➕ Add company applications
+This project was developed using HTML5, CSS3, and Vanilla JavaScript without any frameworks. It demonstrates core frontend development concepts including DOM manipulation, CRUD operations, state persistence with localStorage, event handling, animations, and responsive layout design.
 
-📊 Track application status:
+To run the project locally, simply clone the repository and open the index.html file in any modern browser. No installations, dependencies, or server setup are required.
 
-Applied
+Future enhancements may include editing existing entries, exporting data to CSV format, adding authentication, integrating a cloud database, implementing sorting options, improving mobile responsiveness, and adding theme toggles.
 
-Test
-
-Interview
-
-Rejected
-
-Selected
-
-💰 Store offered package (LPA)
-
-📝 Add custom notes
-
-🔍 Filter applications by status
-
-🗑 Delete entries
-
-💾 Persistent storage using localStorage
-
-📈 Floating live statistics dashboard
-
-🎨 Glassmorphism 2.0 design
-
-🌀 Animated gradient background
-
-🖱 3D interactive hover tilt effect
-
-⚡ Smooth micro-interactions
-
-🛠 Tech Stack
-
-HTML5
-
-CSS3 (Glassmorphism, animations, transforms)
-
-Vanilla JavaScript
-
-Browser localStorage
-
-No frameworks. No backend. Pure frontend implementation.
-
-📸 UI Overview
-
-Animated dynamic background
-
-Floating stats cards with live counters
-
-Smooth card entry animations
-
-Glowing status indicators
-
-Interactive 3D hover tilt
-
-Modern dashboard layout
+This project serves as a practical demonstration of frontend fundamentals combined with modern UI design techniques, making it both functional and visually engaging.
