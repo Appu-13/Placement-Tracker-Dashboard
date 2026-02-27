@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Placement Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Placement Tracker Dashboard</h1>
+
+      <!-- Add Company Section -->
+      <div class="card">
+        <h2>Add Company</h2>
+
+        <div class="form-grid">
+          <input type="text" id="companyName" placeholder="Company Name" />
+
+          <select id="status">
+            <option>Applied</option>
+            <option>Test</option>
+            <option>Interview</option>
+            <option>Rejected</option>
+            <option>Selected</option>
+          </select>
+
+          <input type="number" id="package" placeholder="Package (LPA)" />
+          <input type="text" id="notes" placeholder="Notes" />
+
+          <button onclick="addCompany()">Add Company</button>
+        </div>
+      </div>
+
+      <!-- Filter + List Section -->
+      <div class="card">
+        <div class="filter-bar">
+          <h2>Applications</h2>
+          <select id="filterStatus" onchange="filterCompanies()">
+            <option value="All">All</option>
+            <option>Applied</option>
+            <option>Test</option>
+            <option>Interview</option>
+            <option>Rejected</option>
+            <option>Selected</option>
+          </select>
+        </div>
+
+        <div id="companyList"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
